@@ -1,6 +1,29 @@
 $body-color: slateblue;
 
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 body {
   color: $body-color;
   font-family: sans-serif;
+  text-align: center;
+}
+
+.sidenav{
+  height: 80%;
+}
+
+.card{
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+
+  
 }
