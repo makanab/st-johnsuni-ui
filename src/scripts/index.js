@@ -15,6 +15,8 @@ const card = document.querySelector('.card');
 
 
 
+
+
 filter.addEventListener('click',()=>{
 
     for (let list of searchq) {
@@ -100,8 +102,9 @@ else if(v === 'qname'){
            
         });
       });
-
   }
+
+
 
   function filterByInstructor(){
     fetch(baseUrl+`by_insructor/${qname}`)
